@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Facebook, Twitter, Instagram, Linkedin, Mail, PhoneCall, MapPin } from 'lucide-react'
 
 export function TaliFooter() {
@@ -9,10 +10,17 @@ export function TaliFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="inline-block mb-4">
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0046BE] to-[#0039A1]">Tali</span>
+              <Image 
+                src="/tali_logo2.png"
+                alt="Tali Logo"
+                width={120}
+                height={40}
+                className="brightness-0 invert"
+                priority
+              />
             </Link>
             <p className="text-gray-400 mb-4">
-              Simplify your bookkeeping and take control of your financial future with our powerful yet easy-to-use platform.
+              Supercharge your business to success with Tali's simplified bookeeping solution.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-[#0046BE] transition-colors">
@@ -58,7 +66,7 @@ export function TaliFooter() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-[#0046BE]" />
-                <span className="text-gray-400">support@taliapp.com</span>
+                <span className="text-gray-400">support@tali.ng</span>
               </li>
               <li className="flex items-start">
                 <PhoneCall className="h-5 w-5 mr-2 text-[#0046BE]" />
@@ -66,7 +74,7 @@ export function TaliFooter() {
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-[#0046BE]" />
-                <span className="text-gray-400">123 Finance St, San Francisco, CA 94103</span>
+                <span className="text-gray-400">Lagos, Nigeria</span>
               </li>
             </ul>
           </div>
