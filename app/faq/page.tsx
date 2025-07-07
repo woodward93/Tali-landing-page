@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question: "Can I import my existing financial data?",
-    answer: "No, Tali does not support this feature at the moment. However, this is coming soon."
+    answer: "Yes, you can upload your financial statement and Tali will automatically add the payment records."
   },
   {
     question: "What kind of reports can I get?",

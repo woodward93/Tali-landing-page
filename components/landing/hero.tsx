@@ -45,10 +45,6 @@ export function TaliHero() {
                   Start Free
                 </Button>
               </Link>
-              <Button variant="outline" size="lg" className="h-14 px-8 text-lg">
-                Watch Demo
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
             </div>
             
             <div className="mt-12 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 text-gray-600">
