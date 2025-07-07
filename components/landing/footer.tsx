@@ -66,11 +66,11 @@ export function TaliFooter() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-[#0046BE]" />
-                <span className="text-gray-400">support@tali.ng</span>
+                <span className="text-gray-400">hello@tali.ng</span>
               </li>
               <li className="flex items-start">
                 <PhoneCall className="h-5 w-5 mr-2 text-[#0046BE]" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+2348043258172</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-[#0046BE]" />
