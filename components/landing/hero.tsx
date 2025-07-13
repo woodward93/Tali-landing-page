@@ -9,10 +9,13 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 export function TaliHero() {
   const [text] = useTypewriter({
     words: [
-      'Sales',
-      'Receipts',
-      'Inventory',
-      'Reports'
+      'sales',
+      'expenses',
+      'receipts',
+      'invoices',
+      'inventory',
+      'customers',
+      'reports'
     ],
     loop: true,
     delaySpeed: 2000,
