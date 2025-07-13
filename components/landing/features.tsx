@@ -12,23 +12,33 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const features = [
   {
     icon: <LineChart className="h-10 w-10 text-[#0046BE]" />,
-    title: "Record Sales & Expenses",
+    title: "Record sales & expenses",
     description: "Easily record and categorise all your business transactions in one place. Stay on top of your cash flow with real-time updates."
   },
   {
     icon: <BarChart3 className="h-10 w-10 text-[#0046BE]" />,
-    title: "AI-Powered Analytics and Insights",
+    title: "AI-Powered analytics and insights",
     description: "Tali provides detailed analytics on your business performance. See real-time insights on your business data powered by AI."
   },
   {
     icon: <Clock className="h-10 w-10 text-[#0046BE]" />,
-    title: "Manage your products & Services",
+    title: "Manage your products & services",
     description: "Manage your inventory and track stocks daily. Get real-time alerts on inventory items that are low and out of stock."
   },
   {
     icon: <CreditCard className="h-10 w-10 text-[#0046BE]" />,
-    title: "Professional recipts and invoices",
+    title: "Professional receipts and invoices",
     description: "Let your business stand out with professional looking receipts and invoices for every sale record."
+  },
+  {
+    icon: <CreditCard className="h-10 w-10 text-[#0046BE]" />,
+    title: "Manage your debts",
+    description: "See who owes you money and who you owe in realtime and track repayments."
+  },
+  {
+    icon: <CreditCard className="h-10 w-10 text-[#0046BE]" />,
+    title: "Get your own online shop",
+    description: "Get a beautful online shop, sell directly to your customers and collect payments, for free."
   }
 ]
 
